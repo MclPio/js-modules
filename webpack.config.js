@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/dropdown-menu.js',
+  entry: './src/index.js',
   devServer: {
     static: './dist',
   },
